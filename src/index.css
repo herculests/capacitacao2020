@@ -1,0 +1,45 @@
+#root, #root >div, .ant-layout {
+    height: 100%;
+}
+
+.mod{
+    float:right;
+}
+.titulo {
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(27, 196, 167);
+}
+
+
+
+.subTitulo {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.editable-cell {
+    position: relative;
+}
+  
+.editable-cell-value-wrap {
+    padding: 5px 12px;
+    cursor: pointer;
+}
+  
+.editable-row:hover .editable-cell-value-wrap {
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    padding: 4px 11px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+  
+html, body, #root {
+    min-height: 100%;
+}
