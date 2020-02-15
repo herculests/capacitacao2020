@@ -11,7 +11,9 @@
     color: rgb(27, 196, 167);
 }
 
-
+.delet {
+    margin: 0 auto;
+}
 
 .subTitulo {
     font-size: 30px;

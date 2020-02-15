@@ -165,7 +165,7 @@ class CollectionsPage extends React.Component {
           this.state.dataSource.length >= 1 ? (
             <Popconfirm title="Deseja realmente excluir?" 
             cancelText="Cancelar"onConfirm={() => this.handleDelete(record.key)}>
-              <DeleteForeverIcon color="secondary" style={{ fontSize: 30 }} />
+              <DeleteForeverIcon color="secondary" style={{ fontSize: 30 }} className = "delet"/>
             </Popconfirm>
           ) : null,
       },
